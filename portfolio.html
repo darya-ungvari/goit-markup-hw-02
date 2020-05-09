@@ -6,19 +6,21 @@
         <title>Portfolio</title>
     </head>
     <body>
-        <header>
-            <a href="index.html">Web Studio</a>
+        <header class="header-page">
             <!--Main menu-->
-            <ul>
-                <li> <a href=""> Студия </a>  </li>
-                <li> <a href=""> Портфолио </a>  </li>
-                <li> <a href=""> Контакты </a>  </li>
+            <nav class="site-nav">
+                <a class="logo" href="index.html"> <span class="logo-accent">Web</span> Studio </a>
+                <ul>
+                    <li> <a href="" class="site-nav-links"> Студия </a>  </li>
+                    <li> <a href="" class="site-nav-links"> Портфолио </a>  </li>
+                    <li> <a href="" class="site-nav-links"> Контакты </a>  </li>
+                </ul>
+                <!--Contacts-->
+            <ul class="contacts-nav"> 
+                <li> <a href="mailto:info@devstudio.com" aria-label="Ссылка на емейл" class="contact-nav-links">   info@devstudio.com </a></li>
+                <li> <a href="tel:+380961111111" aria-label="Ссылка на звонок" class="contact-nav-links"> +38 096 111 11 11 </a></li>
             </ul>
-            <!--Contacts-->
-            <ul> 
-                <li> <a href="mailto:info@devstudio.com" aria-label="Ссылка на емейл">   info@devstudio.com </a></li>
-                <li> <a href="tel:+380961111111" aria-label="Ссылка на звонок"> +38 096 111 11 11 </a></li>
-            </ul>
+            </nav>
         </header>
         <h1>Portfolio</h1> <!--transparant-->
         <ul>
@@ -95,5 +97,31 @@
                 </li>
             </ul>
         </div>
+        <!-- футер -->
+        <footer>
+            <div>
+                <a href="index.html" class="logo footer"> <span class="logo-accent">Web</span> Studio </a>
+                <address class="adress">
+                    г. Киев, пр-т Леси Украинки, 26 <br>
+                    info@example.com<br>
+                    +38 099 111 11 11
+                </address>           
+            </div>
+            <!--Соц сети-->
+            <div>
+                <b class="joinus">ПРИСОЕДИНЯЙТЕСЬ</b>
+                <ul class="footer-socialmedia"> 
+                    <li> <a href="" aria-label="Ссылка на инстаграм"></a></li>
+                    <li> <a href="" aria-label="Ссылка на твитер"></a></li>
+                    <li> <a href="" aria-label="Ссылка на фейсбук"></a></li>
+                    <li> <a href="" aria-label="Ссылка на линкедин"></a></li>
+                </ul>
+            </div>
+            <div>
+                <b class="follow-us">ПОДПИСАТЬСЯ НА РАССЫЛКУ</b>
+                <button class="button">Подписаться</button>
+            </div>
+             <p>2020 | Developed by GoIT Students </p>
+        </footer>
     </body>
     </html>
