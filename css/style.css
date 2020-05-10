@@ -211,6 +211,48 @@ h1, h2, h3 {
 }
 
 
+
+/* 
+
+portfolio
+
+*/
+
+.button.primary.radio:hover,
+.button.primary.radio:focus {
+
+    color:var(--accent-color)
+}
+
+.button.secondary.radio:hover,
+.button.secondary.radio:focus {
+
+    color:var(--accent-color)
+}
+
+.categories-title {
+
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+}
+
+.categories.list p{
+
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+}
+
+
+
+
+
+
+
+
 /* button */
 
 .button {
