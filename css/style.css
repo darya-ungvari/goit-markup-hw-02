@@ -236,3 +236,9 @@ h1, h2, h3 {
     color: var(--title-text-color);
 
 }
+
+.list {
+
+    list-style: none;
+
+}
