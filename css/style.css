@@ -180,12 +180,24 @@ h1, h2, h3 {
 
 }
 
+.footer-socialmedia.list a {
+    color: var(--primary-white-color);
+}
+
+.footer-socialmedia.list a:hover,
+.footer-socialmedia.list a:focus {
+
+    color: var(--accent-color);
+}
+
 .adress {
     font-weight: 500;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
     font-style: normal;
+
+    color:var(--primary-white-color);
 
 }
 
@@ -194,12 +206,8 @@ h1, h2, h3 {
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em;
-}
 
-.footer-socialmedia a:hover,
-.footer-socialmedia a:focus {
-
-    color: var(--accent-color);
+    color: var(--primary-white-color);
 }
 
 
@@ -209,6 +217,8 @@ h1, h2, h3 {
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em;
+
+    color: var(--primary-white-color);
 }
 
 
