@@ -190,7 +190,7 @@ h1, h2, h3 {
     color: var(--accent-color);
 }
 
-.adress {
+.address {
     font-weight: 500;
     font-size: 14px;
     line-height: 24px;
@@ -199,6 +199,17 @@ h1, h2, h3 {
 
     color:var(--primary-white-color);
 
+}
+
+.address a {
+
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.address a:hover,
+.address a:focus {
+
+    color: var(--accent-color);
 }
 
 .joinus {
